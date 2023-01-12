@@ -6,11 +6,11 @@
 /* ------------nav start--------------- */
 body{
     background-color: #F3F1FF;
-    color: #fff;
 }
 #header{
     background-color: #562EFF;
     padding: 20px 0;
+    color: #fff;
 }
 .container{
     padding: 0 10%;
@@ -43,9 +43,40 @@ body{
     margin-left: 30px;
 }
 
+/* top palyers */
 
-
-
+.top-player{
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.top-player h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #562EFF;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.player img{
+    width: 60px;
+}
+.player p{
+    font-weight: 500;
+    font-size: 18px;
+}
+hr{
+    margin: 30px 0 40px;
+}
 
 
 
