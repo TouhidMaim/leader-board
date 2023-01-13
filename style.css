@@ -55,7 +55,7 @@ body{
     padding: 15px;
 }
 .top-player h2{
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
     font-weight: 500;
     color: #562EFF;
@@ -104,4 +104,49 @@ hr{
 .blog-info p a{
     text-decoration: none;
 }
+
+/* latest course */
+
+.latest-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+.thambail{
+    width: 200px;
+}
+.course-info{
+    display: flex;
+}
+.rating-point{
+    margin: 0 10px;
+    color: #808080;
+}
+.filled{
+    color: yellow;
+}
+.unfilled{
+    color: #808080;
+}
+.course-detail a{
+    color: #ED6B4F;
+    text-decoration: none;
+}
+.border{
+    border: 1px solid #ED6B4F;
+}
+.course-duration{
+    display: flex;
+}
+.time-bg-color{
+    background-color: #e779609f;
+    color: #ED6B4F;
+    padding: 0 8px;
+    border-radius: 25px;
+}
+
+
+
 
